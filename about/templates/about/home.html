@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <head>
+        <title>Spacecraft Database</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    </head>
+    <body>
+        <div class="borderexample">
+            <p>Click the following hyperlinks in order<br>to learn more about a specific spacecraft:</p>
+        </div>
+        <div class="sc-list">
+            <p><a href="{% url 'maven' %}">MAVEN</a></p>
+            <p><a href="{% url 'mro' %}">MRO</a></p>
+        </div>
+    </body>
+</html>
+

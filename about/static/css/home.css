@@ -1,0 +1,25 @@
+p a{
+    color: #060814;
+}
+
+.sc-list{
+    color: #000000;
+    text-align: center;
+}
+
+/*body {*/
+    /*text-align: center;*/
+    /*!*width: 300px;*!*/
+/*}*/
+
+.borderexample {
+    position: static;
+    text-align: center;
+    border-style:solid;
+    border-color: #c53938;
+    /*border-right-width: 15px;*/
+    /*width: 300px;*/
+    box-sizing: border-box;
+    width: 15%;
+    margin: 0 auto;
+}
